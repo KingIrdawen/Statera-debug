@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf /Users/morganmagalhaes/Documents/Codage/Statera/frontend-temp && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes 2>&1 | tail -20)",
+      "Bash(npm init:*)",
+      "Read(//private/tmp/**)",
+      "Bash(rm -rf hlvault-frontend)",
+      "Bash(npx create-next-app@latest hlvault-frontend --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(rm -f package.json && cp -r /tmp/hlvault-frontend/. /Users/morganmagalhaes/Documents/Codage/Statera/FrontEnd/ && rm -rf /tmp/hlvault-frontend && ls)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

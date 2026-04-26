@@ -1,0 +1,25 @@
+# Foundry
+out/
+cache/
+broadcast/
+
+# Dependencies
+lib/
+
+# Env
+.env
+keeper/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+keeper/keeper_state.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
